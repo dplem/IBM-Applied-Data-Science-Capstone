@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dde5a65f46874bfd9d5aa4426fbf7a8b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_dde5a65f46874bfd9d5aa4426fbf7a8b" ></div>
+        
+</body>
+<script>    
+    
+            var map_dde5a65f46874bfd9d5aa4426fbf7a8b = L.map(
+                "map_dde5a65f46874bfd9d5aa4426fbf7a8b",
+                {
+                    center: [39.7392364, -104.9848623],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_36decbc4c8694892900f6de2720e1a03 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+            var circle_marker_1488caa5d7704f63ad65944b8844286c = L.circleMarker(
+                [39.721070000000054, -104.97521999999998],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_0060cef72d344ee58dbd9f0ba76fe2fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea222bb631cc4fa3a0bfd18b2598dcb0 = $(`<div id="html_ea222bb631cc4fa3a0bfd18b2598dcb0" style="width: 100.0%; height: 100.0%;">Alamo Placita, Denver - Cluster 0</div>`)[0];
+            popup_0060cef72d344ee58dbd9f0ba76fe2fb.setContent(html_ea222bb631cc4fa3a0bfd18b2598dcb0);
+        
+
+        circle_marker_1488caa5d7704f63ad65944b8844286c.bindPopup(popup_0060cef72d344ee58dbd9f0ba76fe2fb)
+        ;
+
+        
+    
+    
+            var circle_marker_99ead77759c542d3b8133e6485d20b29 = L.circleMarker(
+                [39.75121000000007, -105.02134999999998],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_0b8f8bbb9a4048eba444b6fa5f3e5964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5976adaccb0944e5a8dc5a306fb189b3 = $(`<div id="html_5976adaccb0944e5a8dc5a306fb189b3" style="width: 100.0%; height: 100.0%;">Jefferson Park, Denver - Cluster 0</div>`)[0];
+            popup_0b8f8bbb9a4048eba444b6fa5f3e5964.setContent(html_5976adaccb0944e5a8dc5a306fb189b3);
+        
+
+        circle_marker_99ead77759c542d3b8133e6485d20b29.bindPopup(popup_0b8f8bbb9a4048eba444b6fa5f3e5964)
+        ;
+
+        
+    
+    
+            var circle_marker_592089ba6f4c4dd5a72aa7ea498a2b03 = L.circleMarker(
+                [39.72896000000003, -105.00221999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_e670437daabb4f1fa883043b2f9a3480 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_debcd815ea8340fe89de71f4329e2f45 = $(`<div id="html_debcd815ea8340fe89de71f4329e2f45" style="width: 100.0%; height: 100.0%;">Lincoln Park, Denver - Cluster 0</div>`)[0];
+            popup_e670437daabb4f1fa883043b2f9a3480.setContent(html_debcd815ea8340fe89de71f4329e2f45);
+        
+
+        circle_marker_592089ba6f4c4dd5a72aa7ea498a2b03.bindPopup(popup_e670437daabb4f1fa883043b2f9a3480)
+        ;
+
+        
+    
+    
+            var circle_marker_21bdb73878644020a83953c4b4296a46 = L.circleMarker(
+                [39.75261000000006, -104.99950999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_1a00a8bf8df24478b121aa6476463178 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eeb4a9667984d75bdc8eaa20bcf0ec7 = $(`<div id="html_3eeb4a9667984d75bdc8eaa20bcf0ec7" style="width: 100.0%; height: 100.0%;">LoDo, Denver - Cluster 0</div>`)[0];
+            popup_1a00a8bf8df24478b121aa6476463178.setContent(html_3eeb4a9667984d75bdc8eaa20bcf0ec7);
+        
+
+        circle_marker_21bdb73878644020a83953c4b4296a46.bindPopup(popup_1a00a8bf8df24478b121aa6476463178)
+        ;
+
+        
+    
+    
+            var circle_marker_5d763765a1a8458184bbc6675f02db65 = L.circleMarker(
+                [39.71623840920247, -104.9080830819771],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_47c664ee06ba477eafd3bc5f5c9c1412 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84ed038a63954611b94747421e5f6d59 = $(`<div id="html_84ed038a63954611b94747421e5f6d59" style="width: 100.0%; height: 100.0%;">Lowry, Denver - Cluster 0</div>`)[0];
+            popup_47c664ee06ba477eafd3bc5f5c9c1412.setContent(html_84ed038a63954611b94747421e5f6d59);
+        
+
+        circle_marker_5d763765a1a8458184bbc6675f02db65.bindPopup(popup_47c664ee06ba477eafd3bc5f5c9c1412)
+        ;
+
+        
+    
+    
+            var circle_marker_7064bbfae6864097900d0bcb724ddd73 = L.circleMarker(
+                [39.793210000000045, -104.83385999999996],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_154006a93cd4455e9c0ec80d711acee3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6cb13af8faf4390a3ac5ac36131f97e = $(`<div id="html_a6cb13af8faf4390a3ac5ac36131f97e" style="width: 100.0%; height: 100.0%;">Montbello, Denver - Cluster 0</div>`)[0];
+            popup_154006a93cd4455e9c0ec80d711acee3.setContent(html_a6cb13af8faf4390a3ac5ac36131f97e);
+        
+
+        circle_marker_7064bbfae6864097900d0bcb724ddd73.bindPopup(popup_154006a93cd4455e9c0ec80d711acee3)
+        ;
+
+        
+    
+    
+            var circle_marker_bf2557ab192d4637a198a5806dc7a53a = L.circleMarker(
+                [39.73166000000003, -104.91336999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_f2d12af4ed3e4bfbb05fb52f4c11539f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_620820328f7d47259ace0b9de7194715 = $(`<div id="html_620820328f7d47259ace0b9de7194715" style="width: 100.0%; height: 100.0%;">Montclair, Denver - Cluster 0</div>`)[0];
+            popup_f2d12af4ed3e4bfbb05fb52f4c11539f.setContent(html_620820328f7d47259ace0b9de7194715);
+        
+
+        circle_marker_bf2557ab192d4637a198a5806dc7a53a.bindPopup(popup_f2d12af4ed3e4bfbb05fb52f4c11539f)
+        ;
+
+        
+    
+    
+            var circle_marker_edf20456ef274d61987ad29ebce4e604 = L.circleMarker(
+                [39.74378430754825, -104.97337897689235],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_629b066be503491684494be6d60885c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7a6ff4cbcb940e8b951fbb2362b0b69 = $(`<div id="html_e7a6ff4cbcb940e8b951fbb2362b0b69" style="width: 100.0%; height: 100.0%;">Park Hill, Denver - Cluster 0</div>`)[0];
+            popup_629b066be503491684494be6d60885c6.setContent(html_e7a6ff4cbcb940e8b951fbb2362b0b69);
+        
+
+        circle_marker_edf20456ef274d61987ad29ebce4e604.bindPopup(popup_629b066be503491684494be6d60885c6)
+        ;
+
+        
+    
+    
+            var circle_marker_02b1d2b14fe5493482c9096b2632bc1b = L.circleMarker(
+                [39.787420000000054, -105.04098999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_67f943c840c84b15bea1dece069890a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_663f7d6af96e4ffcb1a12e9a33913cb7 = $(`<div id="html_663f7d6af96e4ffcb1a12e9a33913cb7" style="width: 100.0%; height: 100.0%;">Regis, Denver - Cluster 0</div>`)[0];
+            popup_67f943c840c84b15bea1dece069890a6.setContent(html_663f7d6af96e4ffcb1a12e9a33913cb7);
+        
+
+        circle_marker_02b1d2b14fe5493482c9096b2632bc1b.bindPopup(popup_67f943c840c84b15bea1dece069890a6)
+        ;
+
+        
+    
+    
+            var circle_marker_4caf9d659d9f4ee6906a66290a966237 = L.circleMarker(
+                [39.69106000000005, -105.00873999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_aecb6d2f262f4caabb7603e38f36b4ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_591352e5fec94c4a80738e853bb5e81f = $(`<div id="html_591352e5fec94c4a80738e853bb5e81f" style="width: 100.0%; height: 100.0%;">Ruby Hill, Denver - Cluster 0</div>`)[0];
+            popup_aecb6d2f262f4caabb7603e38f36b4ec.setContent(html_591352e5fec94c4a80738e853bb5e81f);
+        
+
+        circle_marker_4caf9d659d9f4ee6906a66290a966237.bindPopup(popup_aecb6d2f262f4caabb7603e38f36b4ec)
+        ;
+
+        
+    
+    
+            var circle_marker_45f9abd030f444f9a0b9b57eab7ac346 = L.circleMarker(
+                [39.752560000000074, -105.03812999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_a87e9f04d29f40959bc1297393b89155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bcfee67a4324c1eb9e360d7465e97bb = $(`<div id="html_3bcfee67a4324c1eb9e360d7465e97bb" style="width: 100.0%; height: 100.0%;">Sloan Lake (Colorado) - Cluster 0</div>`)[0];
+            popup_a87e9f04d29f40959bc1297393b89155.setContent(html_3bcfee67a4324c1eb9e360d7465e97bb);
+        
+
+        circle_marker_45f9abd030f444f9a0b9b57eab7ac346.bindPopup(popup_a87e9f04d29f40959bc1297393b89155)
+        ;
+
+        
+    
+    
+            var circle_marker_e36974ae2b784caaadef00fb733a6da4 = L.circleMarker(
+                [39.71933000000007, -104.97999999999996],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_37f5b829ae1e405aa78201a94d978e80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b1b477c18c543229c80aba494283332 = $(`<div id="html_0b1b477c18c543229c80aba494283332" style="width: 100.0%; height: 100.0%;">Speer, Denver - Cluster 0</div>`)[0];
+            popup_37f5b829ae1e405aa78201a94d978e80.setContent(html_0b1b477c18c543229c80aba494283332);
+        
+
+        circle_marker_e36974ae2b784caaadef00fb733a6da4.bindPopup(popup_37f5b829ae1e405aa78201a94d978e80)
+        ;
+
+        
+    
+    
+            var circle_marker_1621e9b94ca14fe783dd8e0509110934 = L.circleMarker(
+                [39.85138000000006, -104.68095999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_5631b29df947411fb13d3818bc918742 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7c08165ccab4bdea58bed3af013277a = $(`<div id="html_e7c08165ccab4bdea58bed3af013277a" style="width: 100.0%; height: 100.0%;">Stapleton International Airport - Cluster 0</div>`)[0];
+            popup_5631b29df947411fb13d3818bc918742.setContent(html_e7c08165ccab4bdea58bed3af013277a);
+        
+
+        circle_marker_1621e9b94ca14fe783dd8e0509110934.bindPopup(popup_5631b29df947411fb13d3818bc918742)
+        ;
+
+        
+    
+    
+            var circle_marker_8060a8597f4b4316ad133ec9eb07cfee = L.circleMarker(
+                [39.73642000000007, -105.02176999999995],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_be2fe56bebf248538a3e02384d327ba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18cc142ddad24df4be1b28895dbdaeb4 = $(`<div id="html_18cc142ddad24df4be1b28895dbdaeb4" style="width: 100.0%; height: 100.0%;">Sun Valley, Denver - Cluster 0</div>`)[0];
+            popup_be2fe56bebf248538a3e02384d327ba6.setContent(html_18cc142ddad24df4be1b28895dbdaeb4);
+        
+
+        circle_marker_8060a8597f4b4316ad133ec9eb07cfee.bindPopup(popup_be2fe56bebf248538a3e02384d327ba6)
+        ;
+
+        
+    
+    
+            var circle_marker_ab7025b5ceb744f9a1448fe94b6ccf16 = L.circleMarker(
+                [39.77495000000005, -105.00643999999994],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_7ad5450d04274ec2b3bad685bbfa547e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95d415fc588846feaaa25370a9140020 = $(`<div id="html_95d415fc588846feaaa25370a9140020" style="width: 100.0%; height: 100.0%;">Sunnyside, Denver - Cluster 0</div>`)[0];
+            popup_7ad5450d04274ec2b3bad685bbfa547e.setContent(html_95d415fc588846feaaa25370a9140020);
+        
+
+        circle_marker_ab7025b5ceb744f9a1448fe94b6ccf16.bindPopup(popup_7ad5450d04274ec2b3bad685bbfa547e)
+        ;
+
+        
+    
+    
+            var circle_marker_1cfedea244ad4764b79ace4923e4de23 = L.circleMarker(
+                [39.753490000000056, -104.99887999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_004e858a6b4e428daec90af631a09a02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d31f55613824a32b9003efbba7aef45 = $(`<div id="html_3d31f55613824a32b9003efbba7aef45" style="width: 100.0%; height: 100.0%;">Union Station, Denver - Cluster 0</div>`)[0];
+            popup_004e858a6b4e428daec90af631a09a02.setContent(html_3d31f55613824a32b9003efbba7aef45);
+        
+
+        circle_marker_1cfedea244ad4764b79ace4923e4de23.bindPopup(popup_004e858a6b4e428daec90af631a09a02)
+        ;
+
+        
+    
+    
+            var circle_marker_ee908f93fac44f6c87702842184387d5 = L.circleMarker(
+                [39.67850000000004, -104.96661999999998],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_05dc97c0d0a5437cbe450e14acca5796 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35bdfd5424ce4b9186b77cbdb9974dd5 = $(`<div id="html_35bdfd5424ce4b9186b77cbdb9974dd5" style="width: 100.0%; height: 100.0%;">University, Denver - Cluster 0</div>`)[0];
+            popup_05dc97c0d0a5437cbe450e14acca5796.setContent(html_35bdfd5424ce4b9186b77cbdb9974dd5);
+        
+
+        circle_marker_ee908f93fac44f6c87702842184387d5.bindPopup(popup_05dc97c0d0a5437cbe450e14acca5796)
+        ;
+
+        
+    
+    
+            var circle_marker_d3e50109756c470ea23cdd46cf136f95 = L.circleMarker(
+                [39.71846000000005, -105.01603999999998],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_70c59110302f4bd983cc4f159ae47ded = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e7b640a302d4663ad5fcec274f0aa00 = $(`<div id="html_1e7b640a302d4663ad5fcec274f0aa00" style="width: 100.0%; height: 100.0%;">Valverde, Denver - Cluster 0</div>`)[0];
+            popup_70c59110302f4bd983cc4f159ae47ded.setContent(html_1e7b640a302d4663ad5fcec274f0aa00);
+        
+
+        circle_marker_d3e50109756c470ea23cdd46cf136f95.bindPopup(popup_70c59110302f4bd983cc4f159ae47ded)
+        ;
+
+        
+    
+    
+            var circle_marker_81463e0415344a759b7d2ba4466f0fca = L.circleMarker(
+                [39.731400000000065, -105.03948999999994],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_34767d6cf4094e55949beec5bb1a4471 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3185fe1a9357412c9fb279d3037037a6 = $(`<div id="html_3185fe1a9357412c9fb279d3037037a6" style="width: 100.0%; height: 100.0%;">Villa Park, Denver - Cluster 0</div>`)[0];
+            popup_34767d6cf4094e55949beec5bb1a4471.setContent(html_3185fe1a9357412c9fb279d3037037a6);
+        
+
+        circle_marker_81463e0415344a759b7d2ba4466f0fca.bindPopup(popup_34767d6cf4094e55949beec5bb1a4471)
+        ;
+
+        
+    
+    
+            var circle_marker_96aafa37a70047d8baf43f39e3068ff5 = L.circleMarker(
+                [39.68933000000004, -104.92614999999995],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_644806473bec4b039347d6d5cc4e8b1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65b46a61703a41debbc15ed2c5c49c13 = $(`<div id="html_65b46a61703a41debbc15ed2c5c49c13" style="width: 100.0%; height: 100.0%;">Virginia Village, Denver - Cluster 0</div>`)[0];
+            popup_644806473bec4b039347d6d5cc4e8b1a.setContent(html_65b46a61703a41debbc15ed2c5c49c13);
+        
+
+        circle_marker_96aafa37a70047d8baf43f39e3068ff5.bindPopup(popup_644806473bec4b039347d6d5cc4e8b1a)
+        ;
+
+        
+    
+    
+            var circle_marker_40a99158166445688480f87fbefb5713 = L.circleMarker(
+                [39.70204000000007, -104.96574999999996],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_f398c291059742a8b6f313cfbf66f3b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d21498dee5e14188afc240946966bb12 = $(`<div id="html_d21498dee5e14188afc240946966bb12" style="width: 100.0%; height: 100.0%;">Washington Park, Denver - Cluster 0</div>`)[0];
+            popup_f398c291059742a8b6f313cfbf66f3b7.setContent(html_d21498dee5e14188afc240946966bb12);
+        
+
+        circle_marker_40a99158166445688480f87fbefb5713.bindPopup(popup_f398c291059742a8b6f313cfbf66f3b7)
+        ;
+
+        
+    
+    
+            var circle_marker_58bf2ecec8d04732b1c8b8e99ed354aa = L.circleMarker(
+                [39.70381000000003, -104.91462999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_b9a95d0326974abbbb030beddb6c772f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17a38eaf7acc4b978a731b31f3959232 = $(`<div id="html_17a38eaf7acc4b978a731b31f3959232" style="width: 100.0%; height: 100.0%;">Washington Virginia Vale, Denver - Cluster 0</div>`)[0];
+            popup_b9a95d0326974abbbb030beddb6c772f.setContent(html_17a38eaf7acc4b978a731b31f3959232);
+        
+
+        circle_marker_58bf2ecec8d04732b1c8b8e99ed354aa.bindPopup(popup_b9a95d0326974abbbb030beddb6c772f)
+        ;
+
+        
+    
+    
+            var circle_marker_6d97b484096345fe969c30f8424fa5ff = L.circleMarker(
+                [39.71861000000007, -104.92459999999994],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_c85216d5d125437dbaf75c8137770fbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_387f3c42e5d14d64932caafc72800bb6 = $(`<div id="html_387f3c42e5d14d64932caafc72800bb6" style="width: 100.0%; height: 100.0%;">Hilltop, Denver - Cluster 0</div>`)[0];
+            popup_c85216d5d125437dbaf75c8137770fbf.setContent(html_387f3c42e5d14d64932caafc72800bb6);
+        
+
+        circle_marker_6d97b484096345fe969c30f8424fa5ff.bindPopup(popup_c85216d5d125437dbaf75c8137770fbf)
+        ;
+
+        
+    
+    
+            var circle_marker_b9a18bd2741247a996a7f18d0f010420 = L.circleMarker(
+                [39.740350000000035, -105.04143999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_125150b0313344568e7b7fa1ec147346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b955e1180e754b988d29f1564e9fb991 = $(`<div id="html_b955e1180e754b988d29f1564e9fb991" style="width: 100.0%; height: 100.0%;">West Colfax, Denver - Cluster 0</div>`)[0];
+            popup_125150b0313344568e7b7fa1ec147346.setContent(html_b955e1180e754b988d29f1564e9fb991);
+        
+
+        circle_marker_b9a18bd2741247a996a7f18d0f010420.bindPopup(popup_125150b0313344568e7b7fa1ec147346)
+        ;
+
+        
+    
+    
+            var circle_marker_5144e83e561a4643b005c3e62b29a882 = L.circleMarker(
+                [39.76442000000003, -105.01197999999994],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_0f470f2d31ae400388e4a8f0d346a0d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3184837fbbcb4a31834db786f6f898d9 = $(`<div id="html_3184837fbbcb4a31834db786f6f898d9" style="width: 100.0%; height: 100.0%;">Highland, Denver - Cluster 0</div>`)[0];
+            popup_0f470f2d31ae400388e4a8f0d346a0d2.setContent(html_3184837fbbcb4a31834db786f6f898d9);
+        
+
+        circle_marker_5144e83e561a4643b005c3e62b29a882.bindPopup(popup_0f470f2d31ae400388e4a8f0d346a0d2)
+        ;
+
+        
+    
+    
+            var circle_marker_0e16dd5895714d5b896710307a025966 = L.circleMarker(
+                [39.732710000000054, -104.93041999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_13107cbd107a44fdb415060ffc86b608 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc55d1c10ab641f4982acddd57c55625 = $(`<div id="html_cc55d1c10ab641f4982acddd57c55625" style="width: 100.0%; height: 100.0%;">Hale, Denver - Cluster 0</div>`)[0];
+            popup_13107cbd107a44fdb415060ffc86b608.setContent(html_cc55d1c10ab641f4982acddd57c55625);
+        
+
+        circle_marker_0e16dd5895714d5b896710307a025966.bindPopup(popup_13107cbd107a44fdb415060ffc86b608)
+        ;
+
+        
+    
+    
+            var circle_marker_4bec26af55bb4df697a161467bf9d48b = L.circleMarker(
+                [39.70396000000005, -105.01038999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_e5e3e0d96d7045f78af48f13e3560f34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44e150ae6850446f8806ef0ab341720b = $(`<div id="html_44e150ae6850446f8806ef0ab341720b" style="width: 100.0%; height: 100.0%;">Athmar Park, Denver - Cluster 0</div>`)[0];
+            popup_e5e3e0d96d7045f78af48f13e3560f34.setContent(html_44e150ae6850446f8806ef0ab341720b);
+        
+
+        circle_marker_4bec26af55bb4df697a161467bf9d48b.bindPopup(popup_e5e3e0d96d7045f78af48f13e3560f34)
+        ;
+
+        
+    
+    
+            var circle_marker_90fc9ed05daf4a948505ca15be35090b = L.circleMarker(
+                [39.745750000000044, -105.00996999999995],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_3a8ab4aeda8542c2a35db85a455c1fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fca309bbe376487d84103a7c94b4b438 = $(`<div id="html_fca309bbe376487d84103a7c94b4b438" style="width: 100.0%; height: 100.0%;">Auraria, Denver - Cluster 0</div>`)[0];
+            popup_3a8ab4aeda8542c2a35db85a455c1fe0.setContent(html_fca309bbe376487d84103a7c94b4b438);
+        
+
+        circle_marker_90fc9ed05daf4a948505ca15be35090b.bindPopup(popup_3a8ab4aeda8542c2a35db85a455c1fe0)
+        ;
+
+        
+    
+    
+            var circle_marker_df9b92ceef0044abae4e011d81e999e2 = L.circleMarker(
+                [39.71117000000004, -104.99208999999996],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_e20b7f7ad63f4984b79c1e9dd2067b0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73e139be0f404ddfa646ebe228004fcb = $(`<div id="html_73e139be0f404ddfa646ebe228004fcb" style="width: 100.0%; height: 100.0%;">Baker, Denver - Cluster 0</div>`)[0];
+            popup_e20b7f7ad63f4984b79c1e9dd2067b0e.setContent(html_73e139be0f404ddfa646ebe228004fcb);
+        
+
+        circle_marker_df9b92ceef0044abae4e011d81e999e2.bindPopup(popup_e20b7f7ad63f4984b79c1e9dd2067b0e)
+        ;
+
+        
+    
+    
+            var circle_marker_fb6bb1753de7469490c66ab80007fa5c = L.circleMarker(
+                [39.71816000000007, -105.03261999999995],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_75588ce6daf94bbfb84e975cca1e570f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c776bc9c75b4061af980420eef06de8 = $(`<div id="html_2c776bc9c75b4061af980420eef06de8" style="width: 100.0%; height: 100.0%;">Barnum, Denver - Cluster 0</div>`)[0];
+            popup_75588ce6daf94bbfb84e975cca1e570f.setContent(html_2c776bc9c75b4061af980420eef06de8);
+        
+
+        circle_marker_fb6bb1753de7469490c66ab80007fa5c.bindPopup(popup_75588ce6daf94bbfb84e975cca1e570f)
+        ;
+
+        
+    
+    
+            var circle_marker_b7d9f28132ee4759837dbc98b4b87ffe = L.circleMarker(
+                [39.70384000000007, -104.94973999999996],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_18d029a8e3f54805aa4d34b407bfe6d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21aac1e49f3b462f8f0faa8eeb971782 = $(`<div id="html_21aac1e49f3b462f8f0faa8eeb971782" style="width: 100.0%; height: 100.0%;">Belcaro, Denver - Cluster 0</div>`)[0];
+            popup_18d029a8e3f54805aa4d34b407bfe6d7.setContent(html_21aac1e49f3b462f8f0faa8eeb971782);
+        
+
+        circle_marker_b7d9f28132ee4759837dbc98b4b87ffe.bindPopup(popup_18d029a8e3f54805aa4d34b407bfe6d7)
+        ;
+
+        
+    
+    
+            var circle_marker_f3b8ab76ae574335ad4673ae229567df = L.circleMarker(
+                [39.77666000000005, -105.03956999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_5fe504307b4e4bd2a6008302792e9e4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85b10b1d6e174176a988d09cc4abb24b = $(`<div id="html_85b10b1d6e174176a988d09cc4abb24b" style="width: 100.0%; height: 100.0%;">Berkeley, Denver - Cluster 0</div>`)[0];
+            popup_5fe504307b4e4bd2a6008302792e9e4f.setContent(html_85b10b1d6e174176a988d09cc4abb24b);
+        
+
+        circle_marker_f3b8ab76ae574335ad4673ae229567df.bindPopup(popup_5fe504307b4e4bd2a6008302792e9e4f)
+        ;
+
+        
+    
+    
+            var circle_marker_ac73296bedcd482d8490fed960cd343a = L.circleMarker(
+                [39.733700000000056, -104.97956999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_aa571e5cbde64a80850075e0f18537a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e546f22a061f49cda74cd3e0e9f2f32e = $(`<div id="html_e546f22a061f49cda74cd3e0e9f2f32e" style="width: 100.0%; height: 100.0%;">Capitol Hill, Denver - Cluster 0</div>`)[0];
+            popup_aa571e5cbde64a80850075e0f18537a7.setContent(html_e546f22a061f49cda74cd3e0e9f2f32e);
+        
+
+        circle_marker_ac73296bedcd482d8490fed960cd343a.bindPopup(popup_aa571e5cbde64a80850075e0f18537a7)
+        ;
+
+        
+    
+    
+            var circle_marker_35df0bc38e864792a439560e324a930c = L.circleMarker(
+                [39.76013000000006, -104.87849999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_6bc7cf70eb2d4983abf0f555e9b226c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a59ee665ca5d4328a4faabb716f20018 = $(`<div id="html_a59ee665ca5d4328a4faabb716f20018" style="width: 100.0%; height: 100.0%;">Central Park, Denver - Cluster 0</div>`)[0];
+            popup_6bc7cf70eb2d4983abf0f555e9b226c8.setContent(html_a59ee665ca5d4328a4faabb716f20018);
+        
+
+        circle_marker_35df0bc38e864792a439560e324a930c.bindPopup(popup_6bc7cf70eb2d4983abf0f555e9b226c8)
+        ;
+
+        
+    
+    
+            var circle_marker_83af30421ac6451b8f9d15c304f14456 = L.circleMarker(
+                [39.78741000000008, -105.01755999999995],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_cf8e30acacad43ff87dd63dba52a0255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cd0786639804cffa13e3729ae4f6b57 = $(`<div id="html_9cd0786639804cffa13e3729ae4f6b57" style="width: 100.0%; height: 100.0%;">Chaffee Park, Denver - Cluster 0</div>`)[0];
+            popup_cf8e30acacad43ff87dd63dba52a0255.setContent(html_9cd0786639804cffa13e3729ae4f6b57);
+        
+
+        circle_marker_83af30421ac6451b8f9d15c304f14456.bindPopup(popup_cf8e30acacad43ff87dd63dba52a0255)
+        ;
+
+        
+    
+    
+            var circle_marker_33f29eaa2fec40faa5336b03f0a0918b = L.circleMarker(
+                [39.72911000000005, -104.96816999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_dc2d23accb2d46999f2e690f09074d94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eed6bc058a1e40828b1c8dec02dbeb48 = $(`<div id="html_eed6bc058a1e40828b1c8dec02dbeb48" style="width: 100.0%; height: 100.0%;">Cheesman Park, Denver - Cluster 0</div>`)[0];
+            popup_dc2d23accb2d46999f2e690f09074d94.setContent(html_eed6bc058a1e40828b1c8dec02dbeb48);
+        
+
+        circle_marker_33f29eaa2fec40faa5336b03f0a0918b.bindPopup(popup_dc2d23accb2d46999f2e690f09074d94)
+        ;
+
+        
+    
+    
+            var circle_marker_41a9d5c7dbf940279e66b15358bbbdbd = L.circleMarker(
+                [39.645260000000064, -104.89521999999994],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_742899027c224654a79605b007cc4b8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a5ddb388a1e4475a9c8e4b97d8afa6a = $(`<div id="html_1a5ddb388a1e4475a9c8e4b97d8afa6a" style="width: 100.0%; height: 100.0%;">Hampden South, Denver - Cluster 0</div>`)[0];
+            popup_742899027c224654a79605b007cc4b8f.setContent(html_1a5ddb388a1e4475a9c8e4b97d8afa6a);
+        
+
+        circle_marker_41a9d5c7dbf940279e66b15358bbbdbd.bindPopup(popup_742899027c224654a79605b007cc4b8f)
+        ;
+
+        
+    
+    
+            var circle_marker_b43ae24cd61f4bbf8c838eb4dd3f9375 = L.circleMarker(
+                [39.75634000000008, -104.96594999999996],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_464cc1a1fcb04e1683cef498e937f052 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf3d58cb215645739344159b733b85b7 = $(`<div id="html_bf3d58cb215645739344159b733b85b7" style="width: 100.0%; height: 100.0%;">Whittier, Denver - Cluster 0</div>`)[0];
+            popup_464cc1a1fcb04e1683cef498e937f052.setContent(html_bf3d58cb215645739344159b733b85b7);
+        
+
+        circle_marker_b43ae24cd61f4bbf8c838eb4dd3f9375.bindPopup(popup_464cc1a1fcb04e1683cef498e937f052)
+        ;
+
+        
+    
+    
+            var circle_marker_2a0c798090e2495dbd8ce25c9a836e08 = L.circleMarker(
+                [39.74379000000005, -104.94824999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_280facca19454cd99218608cf08133b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99b4031573494d75a82a8011f24be1c1 = $(`<div id="html_99b4031573494d75a82a8011f24be1c1" style="width: 100.0%; height: 100.0%;">City Park, Denver - Cluster 0</div>`)[0];
+            popup_280facca19454cd99218608cf08133b7.setContent(html_99b4031573494d75a82a8011f24be1c1);
+        
+
+        circle_marker_2a0c798090e2495dbd8ce25c9a836e08.bindPopup(popup_280facca19454cd99218608cf08133b7)
+        ;
+
+        
+    
+    
+            var circle_marker_2b55ae6744924432b4229014f78d3a11 = L.circleMarker(
+                [39.76693000000006, -104.95050999999995],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_21bbe46d01d14660ad2ba8b01972ca52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a09f8694b9024ff0aa9cde087327009f = $(`<div id="html_a09f8694b9024ff0aa9cde087327009f" style="width: 100.0%; height: 100.0%;">Clayton, Denver - Cluster 0</div>`)[0];
+            popup_21bbe46d01d14660ad2ba8b01972ca52.setContent(html_a09f8694b9024ff0aa9cde087327009f);
+        
+
+        circle_marker_2b55ae6744924432b4229014f78d3a11.bindPopup(popup_21bbe46d01d14660ad2ba8b01972ca52)
+        ;
+
+        
+    
+    
+            var circle_marker_aafbd63799fa4a708193b24fdd3bf7f3 = L.circleMarker(
+                [39.76633000000004, -104.96593999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_ca06716d7ee741feb4b5fa0098b494b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8223fa552af1493a8ec86a4d94e3ac31 = $(`<div id="html_8223fa552af1493a8ec86a4d94e3ac31" style="width: 100.0%; height: 100.0%;">Cole, Denver - Cluster 0</div>`)[0];
+            popup_ca06716d7ee741feb4b5fa0098b494b3.setContent(html_8223fa552af1493a8ec86a4d94e3ac31);
+        
+
+        circle_marker_aafbd63799fa4a708193b24fdd3bf7f3.bindPopup(popup_ca06716d7ee741feb4b5fa0098b494b3)
+        ;
+
+        
+    
+    
+            var circle_marker_6e9d4096b702452090ff700d23bfec5a = L.circleMarker(
+                [39.73359000000005, -104.95000999999996],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_8c09f52e73044f05a492415adc794543 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cea67b7cde64f27bc2ee76169063326 = $(`<div id="html_9cea67b7cde64f27bc2ee76169063326" style="width: 100.0%; height: 100.0%;">Congress Park, Denver - Cluster 0</div>`)[0];
+            popup_8c09f52e73044f05a492415adc794543.setContent(html_9cea67b7cde64f27bc2ee76169063326);
+        
+
+        circle_marker_6e9d4096b702452090ff700d23bfec5a.bindPopup(popup_8c09f52e73044f05a492415adc794543)
+        ;
+
+        
+    
+    
+            var circle_marker_dccf5e43e810453088cd11650980a713 = L.circleMarker(
+                [39.721960000000024, -104.96551999999997],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_0d22679735c24c09b80067bade77697d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c6a91a204634e589b993841ae703307 = $(`<div id="html_9c6a91a204634e589b993841ae703307" style="width: 100.0%; height: 100.0%;">Country Club, Denver - Cluster 0</div>`)[0];
+            popup_0d22679735c24c09b80067bade77697d.setContent(html_9c6a91a204634e589b993841ae703307);
+        
+
+        circle_marker_dccf5e43e810453088cd11650980a713.bindPopup(popup_0d22679735c24c09b80067bade77697d)
+        ;
+
+        
+    
+    
+            var circle_marker_ea636a370c4b46ae87fbf5d3dd39e1cf = L.circleMarker(
+                [39.74822000000006, -104.99412999999998],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_00d5bc0de0764e0dbe27d14c99444bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21b46cada1ff45e7bad85f5face9e82d = $(`<div id="html_21b46cada1ff45e7bad85f5face9e82d" style="width: 100.0%; height: 100.0%;">Downtown Denver - Cluster 0</div>`)[0];
+            popup_00d5bc0de0764e0dbe27d14c99444bb7.setContent(html_21b46cada1ff45e7bad85f5face9e82d);
+        
+
+        circle_marker_ea636a370c4b46ae87fbf5d3dd39e1cf.bindPopup(popup_00d5bc0de0764e0dbe27d14c99444bb7)
+        ;
+
+        
+    
+    
+            var circle_marker_b3c9641db0424c0eb451e891374219d9 = L.circleMarker(
+                [39.781960000000026, -104.95909999999998],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_e88fdbfabb034b2582dc2dbeef924393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2ce5081038d4041855fa29443e15e22 = $(`<div id="html_b2ce5081038d4041855fa29443e15e22" style="width: 100.0%; height: 100.0%;">Elyria-Swansea, Denver - Cluster 0</div>`)[0];
+            popup_e88fdbfabb034b2582dc2dbeef924393.setContent(html_b2ce5081038d4041855fa29443e15e22);
+        
+
+        circle_marker_b3c9641db0424c0eb451e891374219d9.bindPopup(popup_e88fdbfabb034b2582dc2dbeef924393)
+        ;
+
+        
+    
+    
+            var circle_marker_356798d4f898451d87a930fbf8022c26 = L.circleMarker(
+                [39.78194000000008, -104.98522999999994],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_72b6e96fe77a474682557afff6ae13e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef15ccf17c9044e9b77f178d4634b8d2 = $(`<div id="html_ef15ccf17c9044e9b77f178d4634b8d2" style="width: 100.0%; height: 100.0%;">Globeville, Denver - Cluster 0</div>`)[0];
+            popup_72b6e96fe77a474682557afff6ae13e8.setContent(html_ef15ccf17c9044e9b77f178d4634b8d2);
+        
+
+        circle_marker_356798d4f898451d87a930fbf8022c26.bindPopup(popup_72b6e96fe77a474682557afff6ae13e8)
+        ;
+
+        
+    
+    
+            var circle_marker_d4b285469e9a49909480d9f6dd2cb8d2 = L.circleMarker(
+                [39.74545000000006, -104.96719999999999],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_524076f89e834283823db1f065286d63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fe56cd63bd2418689bd54fdb5eec040 = $(`<div id="html_1fe56cd63bd2418689bd54fdb5eec040" style="width: 100.0%; height: 100.0%;">City Park West, Denver - Cluster 0</div>`)[0];
+            popup_524076f89e834283823db1f065286d63.setContent(html_1fe56cd63bd2418689bd54fdb5eec040);
+        
+
+        circle_marker_d4b285469e9a49909480d9f6dd2cb8d2.bindPopup(popup_524076f89e834283823db1f065286d63)
+        ;
+
+        
+    
+    
+            var circle_marker_176663cbc16f42ada12c0d1bf30189d1 = L.circleMarker(
+                [39.73526000000004, -104.99057999999997],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_d9709ef231a2451885be979566c8ea29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bccb78a199a45de8c154c9ff3a19e7e = $(`<div id="html_5bccb78a199a45de8c154c9ff3a19e7e" style="width: 100.0%; height: 100.0%;">Civic Center, Denver (neighborhood) - Cluster 1</div>`)[0];
+            popup_d9709ef231a2451885be979566c8ea29.setContent(html_5bccb78a199a45de8c154c9ff3a19e7e);
+        
+
+        circle_marker_176663cbc16f42ada12c0d1bf30189d1.bindPopup(popup_d9709ef231a2451885be979566c8ea29)
+        ;
+
+        
+    
+    
+            var circle_marker_16c334b7d3b9484e8fdc46a544242e79 = L.circleMarker(
+                [39.74425000000008, -104.98107999999996],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_edd7f36088d54b08929c327fae2deefc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9cdac2a9cf046d78dc752bd5ff8e261 = $(`<div id="html_d9cdac2a9cf046d78dc752bd5ff8e261" style="width: 100.0%; height: 100.0%;">North Capitol Hill, Denver - Cluster 1</div>`)[0];
+            popup_edd7f36088d54b08929c327fae2deefc.setContent(html_d9cdac2a9cf046d78dc752bd5ff8e261);
+        
+
+        circle_marker_16c334b7d3b9484e8fdc46a544242e79.bindPopup(popup_edd7f36088d54b08929c327fae2deefc)
+        ;
+
+        
+    
+    
+            var circle_marker_ee7c5c887be146769a9466e9d431e6f0 = L.circleMarker(
+                [39.74001000000004, -104.99201999999997],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_fbeb37fb86c24031976f1fae758c02d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9f614c02cbe46859012611582b99a01 = $(`<div id="html_c9f614c02cbe46859012611582b99a01" style="width: 100.0%; height: 100.0%;">Chinatown, Denver - Cluster 1</div>`)[0];
+            popup_fbeb37fb86c24031976f1fae758c02d6.setContent(html_c9f614c02cbe46859012611582b99a01);
+        
+
+        circle_marker_ee7c5c887be146769a9466e9d431e6f0.bindPopup(popup_fbeb37fb86c24031976f1fae758c02d6)
+        ;
+
+        
+    
+    
+            var circle_marker_cefd69eb6b794cd385019c94fad97ad3 = L.circleMarker(
+                [39.717820000000074, -104.94872999999995],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_dde5a65f46874bfd9d5aa4426fbf7a8b);
+        
+    
+        var popup_790a54badd974ce8a985717aeb5c09c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04ef94f0f76e40abafd32748ca15fa1c = $(`<div id="html_04ef94f0f76e40abafd32748ca15fa1c" style="width: 100.0%; height: 100.0%;">Cherry Creek, Denver - Cluster 2</div>`)[0];
+            popup_790a54badd974ce8a985717aeb5c09c3.setContent(html_04ef94f0f76e40abafd32748ca15fa1c);
+        
+
+        circle_marker_cefd69eb6b794cd385019c94fad97ad3.bindPopup(popup_790a54badd974ce8a985717aeb5c09c3)
+        ;
+
+        
+    
+</script>
