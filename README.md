@@ -2,7 +2,7 @@
 
 This capstone project is the final requirement for completing the IBM Data Science certification.
 
-##Business problem:
+## Business problem:
 
 What is the best location to open a new movie theater in Denver, CO in 2021?
 
